@@ -4,13 +4,16 @@ title: "Contact"
 
 ::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="20%"}
 
 ![](img/kinks.png)
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
 
 Wanna schedule Kinda Kinksy for your event? 
 
