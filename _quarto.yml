@@ -36,7 +36,7 @@ format:
   html:
 #    mainfont: Oswald
     theme:
-      light: journal
+      light: lumen
       dark: darkly
     css: styles.css
     toc: true

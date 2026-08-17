@@ -2,4 +2,25 @@ Kinda Kinksy is a Kinks tribute band from the Twin Cities area.
 
 ![](img/kinks.png)
 
+::: {.columns}
+
+::: {.column width="25%"}
+![6 Strings<br>Joe](img/joe.jpg){.img-circle}
+:::
+
+::: {.column width="25%"}
+
+![Boom Booms<br>Doug](img/doug.jpg){.img-circle}
+
+:::
+
+::: {.column width="25%"}
+![Vocals<br>Steve](img/steve.jpg){.img-circle}
+:::
+
+::: {.column width="25%"}
+![4 Strings<br>John--o](img/johno.jpg){.img-circle}
+:::
+
+:::
 
