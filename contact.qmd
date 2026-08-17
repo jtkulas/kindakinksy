@@ -2,8 +2,23 @@
 title: "Contact"
 ---
 
+::: {.columns}
+
+::: {.column width="40%"}
+
+![](img/kinks.png)
+
+:::
+
+::: {.column width="60%"}
+
 Wanna schedule Kinda Kinksy for your event? 
 
 Contact [Steve](mailto: sagahoffman@msn.com)
 
-![](img/kinks.png)
+:::
+
+:::
+
+![](img/band1.jpg)
+

@@ -1,6 +1,11 @@
-Kinda Kinksy is a Kinks tribute band from the Twin Cities area.
 
-![](img/kinks.png)
+![](img/band2.jpg)
+
+::: {.festive}
+
+Kinda Kinksy is a [Kinks]{.underline} tribute band from the Twin Cities area...
+
+:::
 
 ::: {.columns}
 

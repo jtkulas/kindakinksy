@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Zen Dots');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Festive');
 
 /* Circular images */
 .img-circle {
@@ -26,4 +27,10 @@ figcaption {
 
 .roboto {
   font-family: "Roboto";
+}
+
+.festive {
+  font-family: "Festive";
+  font-size: 2em;
+  color: black;
 }
