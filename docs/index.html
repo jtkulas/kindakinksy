@@ -50,6 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-593651399adb7f9594efb0a4fd89dd87.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-6930b03d9d44a384fbd8ca760065e49f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-593651399adb7f9594efb0a4fd89dd87.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -320,7 +323,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><img src="img/band2.jpg" class="img-fluid"></p>
+<p><a href="img/band2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/band2.jpg" class="img-fluid"></a></p>
 <div class="festive">
 <p>Kinda Kinksy is a <u>Kinks</u> tribute band from the Twin Cities area…</p>
 </div>
@@ -328,28 +331,28 @@ ul.task-list li input[type="checkbox"] {
 <div class="column" style="width:25%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/joe.jpg" class="img-circle img-fluid figure-img"></p>
+<p><a href="img/joe.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="6 Strings Joe"><img src="img/joe.jpg" class="img-circle img-fluid figure-img" alt="6 Strings Joe"></a></p>
 <figcaption>6 Strings<br>Joe</figcaption>
 </figure>
 </div>
 </div><div class="column" style="width:25%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/doug.jpg" class="img-circle img-fluid figure-img"></p>
+<p><a href="img/doug.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Boom Booms Doug"><img src="img/doug.jpg" class="img-circle img-fluid figure-img" alt="Boom Booms Doug"></a></p>
 <figcaption>Boom Booms<br>Doug</figcaption>
 </figure>
 </div>
 </div><div class="column" style="width:25%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/steve.jpg" class="img-circle img-fluid figure-img"></p>
+<p><a href="img/steve.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Vocals Steve"><img src="img/steve.jpg" class="img-circle img-fluid figure-img" alt="Vocals Steve"></a></p>
 <figcaption>Vocals<br>Steve</figcaption>
 </figure>
 </div>
 </div><div class="column" style="width:25%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/johno.jpg" class="img-circle img-fluid figure-img"></p>
+<p><a href="img/johno.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="4 Strings John–o"><img src="img/johno.jpg" class="img-circle img-fluid figure-img" alt="4 Strings John–o"></a></p>
 <figcaption>4 Strings<br>John–o</figcaption>
 </figure>
 </div>
@@ -792,6 +795,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

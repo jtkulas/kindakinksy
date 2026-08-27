@@ -37,6 +37,7 @@ website:
 format:
   html:
 #    mainfont: Oswald
+    lightbox: true
     theme:
       light: spacelab #lumen
       dark: darkly
