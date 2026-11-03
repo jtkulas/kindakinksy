@@ -12,7 +12,7 @@ website:
       - href: index.qmd
         text: Home
       - href: setlist.qmd
-        text: Setlist
+        text: Shows
       - contact.qmd
     tools:
       - icon: github
@@ -33,6 +33,11 @@ website:
     right: 
       - text: "Contact Us"
         href: contact.qmd
+crossref:
+  custom:
+    - kind: float
+      key: vid
+      reference-prefix: Video
     
 format:
   html:
