@@ -14,15 +14,15 @@ title: "Shows"
 
 ::: {.column width="60%"}
 
-+ Do It Again  
++ Do It Again (@vid-doagain) 
 + Lola  
 + She's Got Everything  
 + Till the End of the Day  
 + Picture Book  
-+ All Day and All of the Night
++ All Day and All of the Night (@vid-allday)
 + Victoria  
-+ You Really Got Me  
-+ @vid-destroyer Destroyer  
++ You Really Got Me (@vid-gotme) 
++ Destroyer (@vid-destroyer) 
 
 ::: 
 
@@ -34,19 +34,31 @@ title: "Shows"
 
 :::
 
+::: {#vid-doagain}
+<iframe src="https://1drv.ms/v/c/ebaeda666c769e56/IQSGhtr9u4LDSaMRNFHeinz-AQ_aR1IUUyrkfl_RzxyANBM" width="100%" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>
+:::
+
+::: {#vid-allday}
+<iframe src="https://1drv.ms/v/c/ebaeda666c769e56/IQSOJkjyAWHbRKEvYNZn6u2nAXPmfE2xJodlw2FjVGOFhWw" width="100%" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>
+:::
+
+::: {#vid-gotme} 
+<iframe src="https://1drv.ms/v/c/ebaeda666c769e56/IQSJJyNGfm1SS5dgrDXDUASNAVLggbxWMKhdAX19A_roOE4" width="100%" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>
+:::
+
 ::: {#vid-destroyer}
 <iframe src="https://1drv.ms/v/c/ebaeda666c769e56/IQSYku3fmjilS6aTmGqnYd3SAfecr1ZxuztVvb9o7T8SwOw" width="100%" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>
 :::
 
 ### Upcoming
 
-Nothing scheduled right now... 
+***Nothing scheduled right now...*** 
 
-![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXV5ZGprbTg0anUzM2ZreWtzcGNhNTkwNDV6bDJ3a21ubnlyaWFjNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13d2jHlSlxklVe/giphy.gif)
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXV5ZGprbTg0anUzM2ZreWtzcGNhNTkwNDV6bDJ3a21ubnlyaWFjNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13d2jHlSlxklVe/giphy.gif){width="100%"}
 
-Come back later for more exciting updates
+***Check back later for more exciting updates...***
 
-![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDVkMWo5bDZwaDI5YnI5eHl3ZzA4aGNwaDR4ZG9memZmcTRkYnp5YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tmQrpA8zpG4a16SSxm/giphy.gif)
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDVkMWo5bDZwaDI5YnI5eHl3ZzA4aGNwaDR4ZG9memZmcTRkYnp5YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tmQrpA8zpG4a16SSxm/giphy.gif){width="100%"}
 
 :::
 

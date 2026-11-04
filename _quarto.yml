@@ -37,7 +37,7 @@ crossref:
   custom:
     - kind: float
       key: vid
-      reference-prefix: Video
+      reference-prefix: Klip
     
 format:
   html:
